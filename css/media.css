@@ -1,0 +1,35 @@
+/* Media Queries */
+@media (max-width: 768px) {
+    .header .header-flex,
+    .footer .footer-flex,
+    .services .services-flex,
+    .team .team-flex {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .hero {
+        height: 300px;
+
+        h2 {
+            font-size: 2rem;
+        }
+    }
+
+    .gallery-item {
+        width: calc(50% - 20px);
+    }
+
+    .footer .footer-flex {
+        text-align: center;
+    }
+
+    .team {
+        padding: 2rem 0 2rem;
+
+        h4,
+        p {
+            text-align: center;
+        }
+    }
+}
